@@ -1,0 +1,13 @@
+# Ejecutables compilados con gcc (se regeneran a partir de los .c).
+# La barra inicial "/" indica "en esta carpeta", y el nombre debe coincidir exacto.
+/paso2
+/paso2_tsan
+/paso3
+/paso3_tsan
+/paso4_mal
+/paso4_ok
+/paso6
+/paso6_tsan
+
+# Archivos objeto que genera el compilador a veces.
+*.o
